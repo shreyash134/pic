@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+
+
+body{
+    background-color: rgb(247, 219, 177);
+    color: black;
+}
+
+.patrons{
+    display: none;
+} 
+
+.header p{
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+    font-weight: 300;
+    color: beige;
+    font-family: 'Anuphan', sans-serif;
+}
+
+header{
+    background-color: rgb(230, 183, 56);
+}
+
+.cards{
+    padding: 10px;
+    margin: 10px;
+    display: block
+    ;
+}
+
+.card1{
+    width: 100%;
+    border: 5px solid rgb(187, 144, 26);
+    display: inline-flex;
+    padding: 2%;
+    gap: 1%;
+    border-radius: 10px;
+}
+
+.card1 .card-image{
+    border: 1px solid rgb(187, 144, 26);
+    border-radius: 5px;
+    
+}
+
+.card2{
+    width: 100%;
+    border: 5px solid rgb(187, 144, 26);
+    display: inline-flex;
+    padding: 2%;
+    gap: 1%;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.card{
+    
+    border: 5px solid rgb(187, 144, 26);
+    margin-top: 3%;
+    padding: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-radius: 5px;
+    
+}
+
+.card h2{
+    margin-bottom: 6px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.cards h2{
+    
+    margin-bottom: 5px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+.images{
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.images p{
+    font-size: large;
+    text-transform: uppercase;
+
+}
+
+.images img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+  header{
+    border:  solid 5px rgb(201, 170, 112);
+    border-radius: 5px;
+  }
+
+  .school{
+    
+    margin-bottom: 5px;
+    font-weight: 200;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .school-photo img{
+    height: 140px;
+    width: 300px;
+    margin-top: 10px;
+    border: 5px solid rgb(187, 144, 26);
+    border-radius: 5px;
+  }
+
+  .school h2 {
+    font-weight: 200;
+  }
+
+  @media only screen and (min-width: 1023px){
+    .header p{
+        text-align: center;
+        padding: 26px;
+        font-size: 37px;
+        font-weight: 900;
+        font-family: 'Anuphan', sans-serif;
+    }
+
+    .images img{
+        height: 350px;
+        width: auto;
+    }
+
+    .school-photo img{
+        height: 350px;
+        width: 800px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .header p{
+        text-align: center;
+        padding: 30px;
+        font-size: 28px;
+        font-weight: 900;
+        font-family: 'Anuphan', sans-serif;
+    }
+
+    .school-photo img{
+        height: 250px;
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width: 554px) and (max-width:768px){
+    .school-photo img{
+        height: 200px;
+        width: 500px;
+    }
+}
+
+  
+  

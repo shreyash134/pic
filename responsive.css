@@ -1,0 +1,53 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .header p{
+        text-align: center;
+        padding: 30px;
+        font-size: 28px;
+        font-weight: 900;
+        font-family: 'Anuphan', sans-serif;
+    }
+
+    .cards p{
+        font-size: x-large;
+    }
+
+    .cards h2{
+        font-size: xx-large;
+    }
+
+    .school p{
+         font-size: x-large;
+    }
+ 
+    .school h2{
+        font-size: xx-large;
+    }
+         
+}
+
+@media only screen and (min-width: 1023px){
+    .header p{
+        text-align: center;
+        padding: 26px;
+        font-size: 37px;
+        font-weight: 900;
+        font-family: 'Anuphan', sans-serif;
+    }
+
+    .cards p{
+        font-size: 27px;
+    }
+
+    .cards h2{
+        font-size: xx-large;
+    }
+
+    .school p{
+        font-size: 27px;
+   }
+
+   .school h2{
+       font-size: xx-large;
+   }
+    
+}
